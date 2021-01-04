@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>Brits Performing artists</h2>
+  <h2>Brits Performing artists</h2>
+  <h2>Brits Performing artists</h2>
+  <h2>Brits Performing artists</h2>
+  <h2>Brits Performing artists</h2>
+  <h2>Brits Performing artists</h2>
+  <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2><h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2> <h2>Brits Performing artists</h2>
+  <cdk-virtual-scroll-viewport itemSize="10" class="example-viewport">
+ <div *cdkVirtualFor="let artist of artists; templateCacheSize: 0" class="list">
+   <h2>{{artist.name || 'Loading...'}}</h2>
+  </div>
+  </cdk-virtual-scroll-viewport>
+</div>
